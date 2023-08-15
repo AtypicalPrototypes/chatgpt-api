@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chatgpt-api
+  annotations:
+    github.com/project-slug: https://github.com/FlyingObjexLtd/chatgpt-api
+  links:
+    - url: https://github.com/FlyingObjexLtd/chatgpt-api/blob/main/README.md
+      title: ReadMe doc
+      icon: docs
+spec:
+  type: service
+  lifecycle: development
+  owner: backend-team
+
+
+# under annotations:
+#    backstage.io/techdocs-ref: url:https://github.com/Fueled/{MK_YAML_DIR}
+#    sentry.io/project-slug: fueled-engg/{SENTRY_SLUG}
+#    sonarqube.org/project-key: Fueled_{SONARQUBE_PROJECT_ID}
