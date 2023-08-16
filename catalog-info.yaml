@@ -3,9 +3,9 @@ kind: Component
 metadata:
   name: chatgpt-api
   annotations:
-    github.com/project-slug: https://github.com/FlyingObjexLtd/chatgpt-api
+    github.com/project-slug: https://github.com/AtypicalPrototypes/chatgpt-api
   links:
-    - url: https://github.com/FlyingObjexLtd/chatgpt-api/blob/main/README.md
+    - url: https://github.com/AtypicalPrototypes/chatgpt-api/blob/main/README.md
       title: ReadMe doc
       icon: docs
 spec:
